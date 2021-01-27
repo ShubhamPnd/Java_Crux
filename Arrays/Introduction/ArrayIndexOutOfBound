@@ -1,4 +1,4 @@
-class GFG 
+class indexoutofbound
 { 
     public static void main (String[] args) 
     { 
