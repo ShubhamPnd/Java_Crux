@@ -1,0 +1,49 @@
+//importing Arrays class so we can turn array into string
+
+import java.util.Arrays;
+
+class Program {
+
+    
+
+    //function to swap array indexes 1 and 2
+
+    static void swap(int[] arr, int index1, int index2) {
+
+        
+
+        int tmp = arr[index1];
+
+        arr[index1] = arr[index2];
+
+        arr[index2] = tmp;
+
+        
+
+    }
+
+    
+
+    //main method
+
+    public static void main(String[] args) {
+
+        
+
+        //an example array
+
+        int[] sampleArray = new int[]{1, 2, 3, 5, 4};
+
+        //swaps indexes 3 and 4
+
+        swap(sampleArray, 3, 4);
+
+        //prints the array
+
+        System.out.println(Arrays.toString(sampleArray));
+
+        
+
+    }
+
+}
