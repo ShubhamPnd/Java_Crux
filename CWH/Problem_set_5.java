@@ -31,6 +31,5 @@ public class Problem_set_5 {
 //                System.out.printf("%d X %d = %d\n" , n,i,n*i);
 //            }
 
-s
     }
 }
