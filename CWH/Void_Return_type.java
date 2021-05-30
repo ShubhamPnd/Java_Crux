@@ -1,4 +1,4 @@
-package arrays;
+package methods_in_java;
 
 public class Void_Return_type {
     static void tellJoke(){
