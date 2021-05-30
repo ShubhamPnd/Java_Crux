@@ -1,4 +1,4 @@
-package arrays;
+package methods_in_java;
 
 public class Methods_in_java {
     static int mySumSub(int x , int y) {
